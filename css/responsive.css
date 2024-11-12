@@ -1,0 +1,278 @@
+
+/* xsmall screen */
+@media (max-width:575px) {
+
+    .navbar {
+        width: 100%;
+    }
+    .navbar .logo {
+        margin-left: -60px;
+    }
+    .navbar .navbar-toggler {
+        margin-right: -40px;
+    }
+    .navbar-collapse {
+        margin-left: -60px;
+    }
+    .hero {
+        height: 800px;
+        margin-bottom: 20px;
+    }
+    .hero .hero-info {
+        text-align: center;
+        position: absolute;
+        top: 60%;
+        left: 0%;
+    }
+    .hero-p {
+        padding: 17px;
+    }
+    .vid {
+        top: 1020%;
+        left: 16%;
+    }
+    .hero-img {
+        position: relative;
+        top: -90px;
+    }
+    .hero-img img {
+        position: absolute;
+        left: 0%;
+    }
+    /* chefs section */
+    
+    .chefs-header {
+        top: 0%;
+        left: 16%;
+    }
+    .chefs-card {
+        left: 0%;
+        margin-bottom: 30px;
+    }
+    .s-img .shape {
+        top: 53%;
+    }
+    /* gallery section */
+    .gallery-header {
+        left: 25%;
+    }
+
+    /* contact section */
+    .contact-header {
+        left: 17%;
+    }
+    .address p,
+    .address h4,
+    .call p,
+    .call h4 {
+    left: 22%;
+    }
+    .contact-form button {
+        width: 20%;
+    }
+    /* footer */
+    .f-footer .logo {
+        top: 6%;
+        left: 15.5%;
+    }
+}
+
+/* small screen */
+@media (min-width:576px) and (max-width:768px) {
+    
+    .navbar .logo {
+        margin-left: -60px;
+    }
+    .navbar .navbar-toggler {
+        margin-right: -70px;
+    }
+    .hero {
+        height: 850px;
+        margin-bottom: 20px;
+    }
+    .hero .hero-info {
+        text-align: center;
+        position: absolute;
+        top: 60%;
+        left: 5%;
+    }
+    .hero-p {
+        padding: 20px;
+        font-size: 18px;
+    }
+    .vid {
+        top: 1080%;
+        left: 25%;
+    }
+    .hero-img {
+        position: relative;
+        left: 5%;
+        top: -90px;
+    }
+    .hero-img img {
+        position: absolute;
+        left: 0%;
+    }
+    /* chefs section */
+    .chefs-header {
+        top: 0%;
+        left: 27%;
+    }
+    .chefs-card {
+        /* width: 100%; */
+        left: 11%;
+        margin-bottom: 30px;
+    }
+    .s-img .shape {
+        top: 60%;
+    }
+    /* gallery section */
+    .gallery-header {
+        left: 32%;
+    }
+    /* contact section */
+    .contact-header {
+        left: 26%;
+    }
+    .address,
+    .call {
+        width: 120%;
+    }
+    .contact-form #name,
+    .contact-form #email {
+        width: 121%;
+    }
+    .contact-form button {
+        width: 20%;
+    }
+    /* footer */
+    .f-footer .logo {
+        top: 5.8%;
+        left: 23%;
+    }
+} 
+/* medium screen */
+@media (min-width:768px) and (max-width:992px) {
+    
+    .navbar .logo {
+        margin-left: -60px;
+    }
+    .navbar .navbar-toggler {
+        margin-right: -70px;
+    }
+    .hero {
+        height: 900px;
+        margin-bottom: 20px;
+    }
+    .hero .hero-info {
+        text-align: center;
+        position: absolute;
+        top: 60%;
+        left: 5%;
+    }
+    .hero-p {
+        padding: 20px;
+        font-size: 20px;
+    }
+    .vid {
+        top: 1100%;
+        left: 32%;
+    }
+    .hero-img {
+        position: relative;
+        left: 0%;
+        top: -90px;
+    }
+    .hero-img img {
+        left: 20%;
+        top: 5%;
+    }
+    /* chefs section */
+    .chefs-header {
+        top: 0%;
+        left: 33%;
+    }
+    .chefs-card {
+        margin-bottom: 30px;
+    }
+    .info-p p {
+        font-size: 14px;
+    }
+     /* contact section */
+    .contact-header {
+        left: 30%;
+    }
+    .address p,
+    .address h4,
+    .call p,
+    .call h4 {
+    left: 26%;
+    }
+    .address p,
+    .call p {
+        font-size: 14px;
+        top: 50%;
+    }
+    /* footer */
+    .f-footer .logo {
+        top: 12.8%;
+        left: 13%;
+    }
+    .t-footer .f-p,
+    .t-footer .s-p,
+    .t-footer .t-p {
+        left: 40%;
+        font-size: 12px;
+    }
+    .t-footer .fa-location-dot {
+        font-size: 15px;
+        top: 38%;
+        left: 25%;
+    } 
+    .t-footer .fa-envelope {
+        font-size: 15px;
+        top: 63%;
+        left: 25%;
+    }
+    .t-footer .fa-phone {
+        font-size: 15px;
+        top: 83%;
+        left: 25%;
+    }
+    .t-footer h4 {
+        font-size: 20px;
+        position: relative;
+        left: 20%;
+    }
+    .quick-links ul li {
+        font-size: 14px;
+        padding: 0px 2px;
+    }
+}
+
+/* large screen */
+@media (min-width:992px) and (max-width:1200px) {
+
+    .hero-img img {
+        width: 400px;
+        height: 400px;
+        left: 52%;
+        /* top: 5%; */
+    }
+
+    /* chefs section */
+    .info-p p {
+        font-size: 16px;
+    }
+    .s-img .shape {
+        top: 40%;
+    }
+    /* contact section */
+    .address p,
+    .address h4,
+    .call p,
+    .call h4 {
+    left: 20%;
+    }
+}
+
